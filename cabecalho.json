@@ -1,0 +1,141 @@
+{
+    "elmType": "div",
+    "attributes": {
+        "class": "ms-borderColor-neutralTertiary"
+    },
+    "style": {
+        "box-sizing": "border-box",
+        "width": "100%",
+        "text-align": "left",
+        "padding": "21px 12px",
+        "overflow": "hidden",
+        "display": "block"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "border-top-width": "0px",
+                "border-bottom-width": "1px",
+                "border-left-width": "0px",
+                "border-right-width": "0px",
+                "border-style": "solid",
+                "margin-bottom": "12px"
+            },
+            "attributes": {
+                "class": "ms-fontColor-neutralSecondary ms-fontWeight-bold ms-fontSize-20"
+            },
+            "txtContent": "='Detalhes do atendimento - ' + [$TitulodoChamado]"
+        },
+        {
+            "elmType": "div",
+            "attributes": {
+                "class": "ms-fontWeight-bold ms-fontSize-14"
+            },
+            "txtContent": "Nome Solicitante"
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "border-top-width": "0px",
+                "border-bottom-width": "1px",
+                "border-left-width": "0px",
+                "border-right-width": "0px",
+                "border-style": "solid",
+                "margin-bottom": "8px"
+            },
+            "attributes": {
+                "class": "ms-fontSize-12"
+            },
+            "txtContent": "= [$NomeSolicitante]"
+        },
+        {
+            "elmType": "div",
+            "attributes": {
+                "class": "ms-fontWeight-bold ms-fontSize-14"
+            },
+            "txtContent": "Tipo de Chamado"
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "border-top-width": "0px",
+                "border-bottom-width": "1px",
+                "border-left-width": "0px",
+                "border-right-width": "0px",
+                "border-style": "solid",
+                "margin-bottom": "8px"
+            },
+            "attributes": {
+                "class": "ms-fontSize-12"
+            },
+            "txtContent": "= [$Tipo_x0020_Chamado]"
+        },
+        {
+            "elmType": "div",
+            "attributes": {
+                "class": "ms-fontWeight-bold ms-fontSize-14"
+            },
+            "txtContent": "Prioridade"
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "border-top-width": "0px",
+                "border-bottom-width": "1px",
+                "border-left-width": "0px",
+                "border-right-width": "0px",
+                "border-style": "solid",
+                "margin-bottom": "8px"
+            },
+            "attributes": {
+                "class": "ms-fontSize-12"
+            },
+            "txtContent": "= [$Prioridade]"
+        },
+        {
+            "elmType": "div",
+            "attributes": {
+                "class": "ms-fontWeight-bold ms-fontSize-14"
+            },
+            "txtContent": "Descricao Rapida"
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "border-top-width": "0px",
+                "border-bottom-width": "1px",
+                "border-left-width": "0px",
+                "border-right-width": "0px",
+                "border-style": "solid",
+                "margin-bottom": "8px"
+            },
+            "attributes": {
+                "class": "ms-fontSize-12"
+            },
+            "txtContent": "= [$DescricaoRapida]"
+        },
+        {
+            "elmType": "div",
+            "attributes": {
+                "class": "ms-fontWeight-bold ms-fontSize-14"
+            },
+            "txtContent": "Descrição detalhada"
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "border-top-width": "0px",
+                "border-bottom-width": "1px",
+                "border-left-width": "0px",
+                "border-right-width": "0px",
+                "border-style": "solid",
+                "margin-bottom": "12px"
+            },
+            "attributes": {
+                "class": "ms-fontSize-12"
+            },
+            "txtContent": "= [$DescricaoDetalhada]"
+        }
+    ]
+}

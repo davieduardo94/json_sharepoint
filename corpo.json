@@ -1,0 +1,64 @@
+{
+    "elmType": "div",
+    "attributes": {
+        "class": "ms-borderColor-neutralTertiary"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "attributes": {
+                "class": "ms-fontColor-neutralSecondary ms-fontWeight-bold ms-fontSize-12"
+            },
+            "style": {
+                "box-sizing": "border-box",
+                "width": "100%",
+                "text-align": "left",
+                "padding": "21px 12px",
+                "overflow": "hidden"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+
+                    "txtContent": "='Detalhes do atendimento ' + [$TitulodoChamado]"
+                },
+                {
+                    "style": {
+                        "box-sizing": "border-box",
+                        "width": "100%",
+                        "text-align": "left",
+                        "padding": "21px 12px",
+                        "overflow": "hidden",
+                        "color" : "transparent"
+                    },
+                    "elmType": "p",
+                    "txtContent": "=[$NomeSolicitante]"
+                },
+                {
+                    "elmType": "p",
+                    "txtContent": "=[$TitulodoChamado]"
+                },
+                {
+                    "elmType": "p",
+                    "txtContent": "=[$Tipo_x0020_Chamado]"
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=[$Prioridade]"
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=[$Prioridade]"
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=[$DescricaoRapida]"
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "=[$DescricaoDetalhada]"
+                }
+            ]
+        }
+    ]
+}
